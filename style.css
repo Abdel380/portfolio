@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+body {
+    background: #012E40;
+    font-family: LeagueSpartan, "Microsoft JhengHei";
+}
+
+
+.header {
+    position: fixed;
+    left: 0;
+    top : 0;
+    width: 100%;
+    padding: 20px 10%;
+
+}
+
+.header a{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.countainer main{
+    background: blue;
+}
