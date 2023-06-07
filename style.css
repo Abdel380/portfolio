@@ -3,6 +3,10 @@
     src: url(Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
 
+html {
+    scroll-behavior:smooth;
+  }
+
 body {
     margin: 0px;
     display : flex; 
@@ -87,7 +91,13 @@ body {
 
 }
 
+#page2_split {
+    display: flex;
+    justify-content: space-between;
+}
+
 #left_page2{
+    width: 50%;
     background-color: rgba(179, 175, 175, 0.301);
     width: 35%;
     margin-left: 8%;
@@ -98,20 +108,22 @@ body {
 }
 
 #left_page2 p{
-    padding-left: 10px;
-    padding-top: 4px;
-    padding-right: 10px;
-    padding-bottom: 4px;
+    padding: 35px;
+}
 
+#right_page2{
+    width : 50%;
+    padding: 25px;
 }
 
 #paragraph{
-    margin-bottom: 20px;
+    text-shadow: #000000 -1px 1px 4px;
+    font-weight: bold;
 }
 
 #page3 {
     background-color: #026773;
-    
+    min-height: 800px;
 }
 
 #right_page3{
