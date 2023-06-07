@@ -91,9 +91,10 @@ body {
     background-color: rgba(179, 175, 175, 0.301);
     width: 35%;
     margin-left: 8%;
-    font-size: 18px;
+    font-size: 30px;
     color: white;
     border-radius: 10px;
+    margin-bottom: 110px;
 }
 
 #left_page2 p{
@@ -116,7 +117,7 @@ body {
 #right_page3{
     background-color: rgba(179, 175, 175, 0.301);
     width: 28%;
-    margin-left: 70%;
+    margin-left: 60%;
     font-size: 18px;
     color: white;
     border-radius: 10px;
