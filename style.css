@@ -20,14 +20,6 @@ body {
     background-color: #012F40;
 }
 
-.header .navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: 25px;
-    width: 25%;
-}
-
-
 .header .logo{
     font-family: RobotoMono, sans-serif;
 
@@ -35,17 +27,29 @@ body {
     margin: 20px;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: #000000 -2px 2px 4px;
+    text-shadow: #000000 -2n px 2px 4px;
 }
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    width: 40%;
+}
+
 
 .header .navbar a{
     font-family: RobotoMono, sans-serif;
     align-content: center;
 
-
     text-decoration: none;
     color : white;
     font-weight: bold;
     text-shadow: #000000 -2px 2px 4px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
 
+.header .navbar a:hover{
+    color: rgb(157, 157, 157);
+    transform: scale(1.1);
 }
