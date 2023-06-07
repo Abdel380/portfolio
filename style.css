@@ -1,12 +1,13 @@
 @font-face {
-    font-family: "LeagueSpartan";
-    src: url(LeagueSpartan-VariableFont_wght.ttf);
+    font-family: "RobotoMono";
+    src: url(Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
+
 body {
     margin: 0px;
     display : flex; 
+    flex-direction: column;
     background: #ffffff;
-    font-family: LeagueSpartan, "Microsoft JhengHei";
 }
 
 
@@ -16,18 +17,35 @@ body {
     display : flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 255, 0.158);
+    background-color: #012F40;
 }
 
 .header .navbar{
     display: flex;
-    flex-basis: 25%;
     justify-content: space-between;
-    margin: 10px;
+    margin: 25px;
+    width: 25%;
 }
 
+
 .header .logo{
-    margin: 10px;
-    background-color: rgb(255, 0, 0);
-    font-family: LeagueSpartan, "Microsoft JhengHei";
+    font-family: RobotoMono, sans-serif;
+
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: #000000 -2px 2px 4px;
+}
+
+.header .navbar a{
+    font-family: RobotoMono, sans-serif;
+    align-content: center;
+
+
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    text-shadow: #000000 -2px 2px 4px;
+
 }
