@@ -7,7 +7,8 @@ body {
     margin: 0px;
     display : flex; 
     flex-direction: column;
-    background: #ffffff;
+    background: #024859;
+    font-family: RobotoMono, sans-serif;
 }
 
 
@@ -22,17 +23,23 @@ body {
 
 .header .logo{
     font-family: RobotoMono, sans-serif;
+    font-size: 1.2em;
 
     color: white;
     margin: 20px;
     text-decoration: none;
     font-weight: bold;
     text-shadow: #000000 -2n px 2px 4px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header .logo:hover{
+    transform: scale(1.1);
 }
 
 .header .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 25px;
     width: 40%;
 }
@@ -45,11 +52,29 @@ body {
     text-decoration: none;
     color : white;
     font-weight: bold;
-    text-shadow: #000000 -2px 2px 4px;
+    text-shadow: #000000 -1px 1px 4px;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .header .navbar a:hover{
-    color: rgb(157, 157, 157);
+    color: rgb(234, 207, 255);
     transform: scale(1.1);
+}
+
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    background: linear-gradient(to right, #012F40, #525252);
+}
+
+#main p{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 50px;
+    color : white;
+    font-size: 6em;
+    text-shadow: -4px 3px 7px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
 }
