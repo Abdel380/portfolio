@@ -1,6 +1,6 @@
 @font-face {
     font-family: "RobotoMono";
-    src: url(Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+    src: url(League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 html {
@@ -70,7 +70,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
-    background: linear-gradient(to right, #012F40, #525252);
+    background: linear-gradient(115deg, #012F40, #686d71);
 }
 
 #main p{
@@ -105,6 +105,7 @@ body {
     color: white;
     border-radius: 10px;
     margin-bottom: 110px;
+    text-align: justify;
 }
 
 #left_page2 p{
@@ -121,11 +122,14 @@ body {
     font-weight: bold;
 }
 
+
+/*########*/
+/* PAGE 3 */
+/*########*/
 #page3 {
     background-color: #026773;
     min-height: 800px;
 }
-
 
 #page3_split {
     display: flex;
@@ -134,19 +138,147 @@ body {
 }
 
 #left_page3 {
+    display: flex;
     width: 50%;
 }
 
 #left_page3 img{
-    padding-top : 10%;
-    padding-left: 15%;
+    margin: 5% 0 0 15%;
+    width: 90%;
+    height: 80%;
 }
 
 #right_page3 {
     width: 50%;
-    background-color:rgb(65, 65, 65);
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #ffffff32;
+    margin: 5% 10% 15% 5%;
+    border-radius: 20px;
+    
 }
 
 #right_page3 h3 {
+    margin: 5% 0 0 0;
+    padding-left: 2%;
+    font-size : 4em;
+    color : rgb(255, 255, 255);
+}
+#right_page3 span{
     color : red;
+}
+#right_page3 p{
+    margin: 5% 5% 0 5%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: #000000 -1px 1px 4px;
+    color : rgb(255, 255, 255);
+}
+#right_page3 button{
+    display: flex;
+    min-height: 15%;
+    width: 60%;
+    margin: 5% 20% 15% 20%;
+    background: #034959;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: #000000 0px 0px 6px;
+    color : rgb(255, 255, 255);
+    font-family: RobotoMono, sans-serif;
+
+    transition: background 0.5s ease, transform 0.5s ease;
+}
+
+#right_page3 button:hover{
+    background: #03343f;
+    transform: scale(1.03);
+}
+
+
+
+/* PAGE 4 */
+
+#page4_split{
+    background: #026773;
+    background-image: url("assets/img/back_cloud.png"); /* Remplacez le chemin par celui de votre image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir complètement l'arrière-plan */
+    display: flex;
+    justify-content:space-around;
+}
+
+#left_page4{
+    width: 50%;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #ffffff32;
+    margin : 5% 10% 5% 10% ;
+    border-radius: 20px;
+}
+
+
+#left_page4 h3{
+    margin: 5% 0 0 0;
+    padding-left: 2%;
+    font-size : 4em;
+    color : rgb(255, 255, 255);
+}
+#left_page4  span{
+    color : #012E40;
+}
+
+#left_page4 p{
+    padding-top: 0;
+    margin: 5%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: #000000 -1px 1px 4px;
+    color : rgb(255, 255, 255);
+}
+
+#left_page4 button{
+    display: flex;
+    min-height: 15%;
+    width: 60%;
+    margin: 5% 20% 15% 20%;
+    background: #034959;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: #000000 0px 0px 6px;
+    color : rgb(255, 255, 255);
+    font-family: RobotoMono, sans-serif;
+
+    transition: background 0.5s ease, transform 0.5s ease;
+}
+
+#left_page4 button:hover{
+    background: #03343f;
+    transform: scale(1.1);
+}
+
+
+
+#right_page4 {
+    width: 50%;
+}
+
+#right_page4 img{
+    padding-top: 20%; 
+    width : 80%;
+    height: auto;
 }
