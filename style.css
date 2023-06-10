@@ -207,11 +207,13 @@ body {
 /* PAGE 4 */
 
 #page4_split{
-    background: #026773;
-    background-image: url("assets/img/back_cloud.png"); /* Remplacez le chemin par celui de votre image */
-    background-size: cover; /* Ajuste la taille de l'image pour couvrir complètement l'arrière-plan */
     display: flex;
-    justify-content:space-around;
+    background: #026773;
+    background-image: url('assets/img/back_cloud.png');
+    background-size:  60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
 }
 
 #left_page4{
@@ -268,7 +270,7 @@ body {
 
 #left_page4 button:hover{
     background: #03343f;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 
@@ -281,4 +283,86 @@ body {
     padding-top: 20%; 
     width : 80%;
     height: auto;
+}
+
+
+
+/*########*/
+/* PAGE 5 */
+/*########*/
+#page5_split {
+    background: #026773;
+    min-height: 800px;
+}
+
+#page5_split {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#left_page5 {
+    display: flex;
+    width: 50%;
+}
+
+#left_page5 img{
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 80%;
+}
+
+#right_page5 {
+    width: 50%;
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #ffffff32;
+    margin: 10% 10% 15% 10%;
+    border-radius: 20px;
+    
+}
+
+#right_page5 h3 {
+    margin: 5% 0 0 0;
+    padding-left: 2%;
+    font-size : 4em;
+    color : rgb(255, 255, 255);
+}
+#right_page5 span{
+    color : #C0FF72;
+}
+#right_page5 p{
+    margin: 5% 10% 0 10%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: #000000 -1px 1px 4px;
+    color : rgb(255, 255, 255);
+}
+#right_page5 button{
+    display: flex;
+    min-height: 15%;
+    width: 60%;
+    margin: 5% 20% 15% 20%;
+    background: #034959;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+    text-shadow: #000000 0px 0px 6px;
+    color : rgb(255, 255, 255);
+    font-family: RobotoMono, sans-serif;
+
+    transition: background 0.5s ease, transform 0.5s ease;
+}
+
+
+#right_page5 button:hover{
+    background: #03343f;
+    transform: scale(1.03);
 }
